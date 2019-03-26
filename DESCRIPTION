@@ -1,14 +1,24 @@
 Package: SatRdayLA
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Package Building Demonstration for SatRday LA
+Version: 1.0.0
 Authors@R: 
     person(given = "David",
            family = "Edison",
            role = c("aut", "cre"),
            email = "david.edison@hautelook.com")
-Description: What the package does (one paragraph).
-License: file LICENSE
+Description: This package is a demo on how to build an R package for SatRday LA.
+    It is not meant to be of any practical use.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/d-edison/SatRdayLA
 BugReports: https://github.com/d-edison/SatRdayLA/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0
+Depends: 
+    R (>= 2.10)
+Imports: 
+    crayon,
+    clisymbols
+Suggests: 
+    testthat
