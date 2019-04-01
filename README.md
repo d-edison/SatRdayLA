@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-SatRdayLA
-=========
+SatRdayLA <img src="man/figures/SatRdayLA-Logo.png" align="right" height="139" />
+=================================================================================
 
 The goal of SatRdayLA is to demonstrate how to build your own R package. It is not intended to be used for any purpose other than demonstration.
 
